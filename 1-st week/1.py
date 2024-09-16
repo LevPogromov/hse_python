@@ -1,3 +1,8 @@
+"""
+https://leetcode.com/
+problems/find-the-longest-substring-containing-vowels-in-even-counts/
+?envType=daily-question&envId=2024-09-15
+"""
 class Solution:
     def findTheLongestSubstring(self, s: str) -> int:
         chars = {"a" : 1, "e" : 2, "i" : 4, "o" : 8, "u" : 16}
