@@ -17,3 +17,4 @@ class Solution:
                 mp[mask] = i
             longestsub = max(longestsub, i - mp[mask])
         return longestsub
+        
