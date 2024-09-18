@@ -16,4 +16,4 @@ class Solution:
             if mp[mask] == -2 :
                 mp[mask] = i
             longestsub = max(longestsub, i - mp[mask])
-        return longestsu
+        return longestsub
