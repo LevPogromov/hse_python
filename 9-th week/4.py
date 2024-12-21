@@ -8,7 +8,7 @@ class Solution:
     def sortedListToBST(self, head: ListNode) -> TreeNode:
         def convertToArray(head):
             arr = []
-            while head != null:
+            while head is not None:
                 arr.append(head.val)
                 head = head.next
             return arr
